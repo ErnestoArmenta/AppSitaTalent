@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/home"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menú Principal"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="30sp"/>
+
+            <Button
+                android:id="@+id/btnCredencial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:background="#1976d2"
+                android:text="Credencial"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnIden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#1976d2"
+                android:text="Enviar Identificación"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnSeguro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#1976d2"
+                android:text="Seguro Médico"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#1976d2"
+                android:text="Cambiar Contraseña"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnCerrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#1976d2"
+                android:text="Cerrar Sesión"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
