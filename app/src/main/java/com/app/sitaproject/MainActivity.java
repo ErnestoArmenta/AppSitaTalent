@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void validate(){
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, "http://192.168.100.9/sita_project/validate.php", new Response.Listener<String>() {
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, "http://192.168.100.9/WebProject/api/validate.php", new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 if (!response.isEmpty()){

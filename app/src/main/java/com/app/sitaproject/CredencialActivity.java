@@ -41,7 +41,7 @@ public class CredencialActivity extends AppCompatActivity {
     }
 
     private void buscarEmp(){
-        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest("http://192.168.100.9/sita_project/searchemployee.php?rfc="+rfc+"", new Response.Listener<JSONArray>() {
+        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest("http://192.168.100.9/WebProject/api/searchemployee.php?rfc="+rfc+"", new Response.Listener<JSONArray>() {
             @Override
             public void onResponse(JSONArray response) {
                 JSONObject jsonObject = null;
